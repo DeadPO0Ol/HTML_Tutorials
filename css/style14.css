@@ -1,0 +1,110 @@
+
+
+.animation{
+    text-align: center;
+    font-size: 100px;
+    animation-name: hiren;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    border: 2px solid black;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;  
+    min-height: 95vh; 
+}
+
+@keyframes hiren{
+    from{background-color: gray;}
+    to{background-color: rgb(202, 195, 195);}
+}
+
+.a1{
+    margin: 100px;
+    position: relative;
+    animation-name: a1;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-shadow: 7px 15px 10px;
+}
+
+@keyframes a1{
+    0%{top: 250px; color: black}
+    25%{top:0px; color: gray}
+    50%{top: -250px; color: black}
+    75%{top: 0px;color: gray}
+    100%{top: 250px; color: black}
+}
+.a2{
+    margin: 100px;
+    position: relative;
+    animation-name: a2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    text-shadow: 7px 15px 10px;
+}
+
+@keyframes a2{
+    0%{top: 250px; color: black}
+    25%{top:0px; color: gray}
+    50%{top: -250px; color: black}
+    75%{top: 0px;color: gray}
+    100%{top: 250px; color: black}
+}
+.a3{
+    margin: 100px;
+    position: relative;
+    animation-name: a3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-shadow: 7px 15px 10px;
+}
+
+@keyframes a3{
+    0%{top: 250px; color: black}
+    25%{top:0px; color: gray}
+    50%{top: -250px; color: black}
+    75%{top: 0px;color: gray}
+    100%{top: 250px; color: black}
+}
+.a4{
+    margin: 100px;
+    position: relative;
+    animation-name: a4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    text-shadow: 7px 15px 10px;
+}
+
+@keyframes a4{
+    0%{top: 250px; color: black}
+    25%{top:0px; color: gray}
+    50%{top: -250px; color: black}
+    75%{top: 0px;color: gray}
+    100%{top: 250px; color: black}
+}
+.a5{
+    margin: 100px;
+    position: relative;
+    animation-name: a5;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-shadow: 7px 15px 10px;
+}
+
+@keyframes a5{
+    0%{top: 250px; color: black}
+    25%{top:0px; color: gray}
+    50%{top: -250px; color: black}
+    75%{top: 0px;color: gray}
+    100%{top: 250px; color: black}
+}
